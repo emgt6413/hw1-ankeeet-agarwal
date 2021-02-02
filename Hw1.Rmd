@@ -1,0 +1,59 @@
+---
+title: "Assignment 1"
+author: "Submitted by Ankit Agarwal"
+date: "2/2/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Ans 1. Loading required libraries  
+```{r eval=FALSE}
+#Packages
+The following libraries were needed to build this document
+library(tidyverse) #Loads tidyverse package
+library(haven) #for performing data import
+```
+
+## Ans 2. Import Data  
+```{r}
+#importing dataset from the folder "Data"
+mto_data <- haven::read_dta("Data/mto_sci_puf_cells_20130206.dta") 
+#acquired from http://data.nber.org/mtopuf/#PUF
+```
+## Ans 3. Basic formatting tools  
+## Is your vision in danger?  
+### Are you doing enough to keep your eyes safe?  
+  
+**Some recommendations for healthy eyes**  
+
+* Quit smoking! 
+* Include the following in your diet  
+   + Carrots  
+   + Citus fruits  
+   + Leafy Veggies (No more throwing kale in trash)  
+ 
+
+Additional tips  
+1. Reduce screen time to 3-4 hours per day  
+2. Look away from your screen every 30 minutes for at least 5 minutes  
+3. Ergonomic settings for your monitor  
+    + Set screen at least 20 inches from your eyes  
+    + Set screen height slightly below eye level  
+  
+![Here's a comic](C:\Users\LENOVO\Desktop\hw1-ankeeet-agarwal\Rhw.jpg)
+
+Inline code inserted to print the timezone where the document was created.  
+`r Sys.timezone()`     
+
+## Ans 4. Find the error  
+The variable names do not match in both lines. Value 10 is assigned to 'my_variable' whereas the second line is trying to print the value of "my_varıable" which was never initialized  
+
+
+## Ans 5. Twitter Tips  
+Karolina Urbanska posted a tip to ease navigating through different sections of code using #### at the start and end of the line. This creates a code section which can be reached by using use the up and down arrow as shown in the image below.    
+
+![](C:\Users\LENOVO\Desktop\hw1-ankeeet-agarwal\Code_tip.jpg)  
+
+## Ans 6.  
+Of the 9 circles of scientific hell, I feel **overselling** seems to be the hardest to avoid. A scientific finding that may have taken intense efforts, may not always be a life-enhancing. However a researcher may believe that a high effort research is high impact too. This perception could make a scientist strenuously persuade publishers to give attention to their work. The second reason why overselling is hard to avoid is the media's love for publishing sensational scientific findings. This may encourage scientist to apply their findings to questionable fields in the hope of garnering accolades. The final reason could be the academic culture of 'publish or perish', scientists overwhelmingly feel the need to remain relevant. 
